@@ -1,0 +1,20 @@
+nav {
+    background-color: #333;
+    height: 70px;
+    color: white;
+    font-size: 30px;
+    display: flex;
+    padding: 0px 20px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul {
+    display: flex;
+    gap: 20px;
+    list-style: circle
+}
+
+nav li {
+
+}
