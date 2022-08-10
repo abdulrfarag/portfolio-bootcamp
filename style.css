@@ -1,20 +1,76 @@
-nav {
-    background-color: #333;
+*{
+    background-color: black;
+}
+.header {
+    /* background-color: #333; */
     height: 70px;
     color: white;
     font-size: 30px;
     display: flex;
     padding: 0px 20px;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
+    margin-bottom: 20px;
 }
 
-nav ul {
+.list {
     display: flex;
     gap: 20px;
-    list-style: circle
+    list-style: circle;
+    list-style-position: inside;
+    
+}
+img {
+
+    color: aliceblue;
+    display: inline-block;
+    margin-left: 15%;
+    /* margin-right: auto; */
+    width: 315px;
+    /* display: flex; */
+    /* align-items: center; */
+    border-radius: 120px;
+
+}
+.about-me{
+    /* display: inline-block; */
+   /* background-color: aqua;  */
+}
+h1{
+    margin-left: 20%;
+    margin-right: auto;
+    /* color: aliceblue; */
+    font-size: xx-large;
+    display: inline-block;
+}
+h2 {
+    width: 650px;
+    height: 426.5px;
+    padding: 2%;
+    color: aliceblue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-radius: 100px;
+        
+    margin-left: 10%;
+    /* margin-right: 5%; */
+    background-color: rgb(45, 90, 180);
+    font-size: larger;
+    display: inline-block;
+    vertical-align: top;    
+    line-height: 1.8;
+
 }
 
-nav li {
-
+.contact {
+    display: inline-block;
+    margin: 200px;
+    padding: 10px;
+    background-color: rgb(45, 90, 180);
+color: aliceblue;
+font-size: larger;
+line-height: 1.8;
+list-style: circle;
+list-style-position: inside;
+border-radius: 100px;
+text-align: left;
 }
