@@ -1,6 +1,4 @@
-*{
-    background-color: black;
-}
+
 .header {
     /* background-color: #333; */
     height: 70px;
@@ -73,4 +71,8 @@ list-style: circle;
 list-style-position: inside;
 border-radius: 100px;
 text-align: left;
+}
+
+.linkedIn {
+    color: white;
 }
